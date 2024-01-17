@@ -9,6 +9,12 @@ h1 {
 margin: 0;
 font-size: 32px;
 }
+a:visited {
+color: blue;
+}
+a:hover {
+color: red;
+}
 
 p {
 font-size: 16px;
@@ -23,7 +29,7 @@ margin-bottom: 20px;
 }
 
 #main-header {
-background-color: aquamarine;
+background-color: darkgoldenrod;
 text-align: center;
 padding: 20px;
 }
@@ -52,7 +58,7 @@ line-height: 1.5;
 
 header{
 color: aliceblue;
-background-color: black;
+background-color: darkblue;
 font-size: 20px;
 text-decoration: dotted;
 padding: 1em;
@@ -60,7 +66,7 @@ padding: 1em;
 
 
 nav {
-    background-color: goldenrod;
+    background-color: rgb(180, 193, 180);
     padding: 0.7em;
 }
 
@@ -71,46 +77,17 @@ nav ul {
     margin: 0;
 }
 
-.top-menu li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.top-menu a {
-    text-decoration: none;
-    color: rgb(219, 16, 16);
-    font-weight: bold;
-}
-
-.top-menu a:hover {
-    color: rgb(1, 12, 1);
-}
-
 img {
     max-width: 250px;
-}
-h2{
-
-
+    border: 5px solid black;
 }
 
-p{
-
-
-}
-
-
-img{
-
-}
-section {
-
-}
 footer {
 background-color: black;
 color: aliceblue;
 padding: 1em;
 }
+
 .h2spe{
     background-color: blue;
     color: aliceblue;

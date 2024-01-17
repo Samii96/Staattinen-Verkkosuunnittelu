@@ -1,0 +1,57 @@
+body {
+background-color: white;
+font-family: Georgia, 'Times New Roman', Times, serif;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+margin: 0.4px;
+
+}
+
+header {
+background-color: purple;
+color: white;
+text-align: center;
+
+}
+.main-container {
+display: flex;
+background-color: turquoise;
+margin: 5px;
+
+}
+
+main {
+flex: 1;
+padding: 20px;
+
+}
+article {
+margin: 5px;
+padding: 5px;
+
+}
+  
+aside {
+width: 200px;
+background-color: #f0f0f0; 
+padding: 20px;
+
+}
+
+footer {
+background-color: purple;
+color: white;
+text-align: center;
+padding: 0px;
+}
+
+.table-primary {
+font-size: 25px;
+font-style: italic;
+}
+
+.form-group {
+font-size: 30px;
+background-color: beige;
+}
